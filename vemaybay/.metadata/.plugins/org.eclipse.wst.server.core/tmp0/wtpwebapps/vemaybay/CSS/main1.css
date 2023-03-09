@@ -1,0 +1,552 @@
+@charset "ISO-8859-1";
+.body {
+    color: #ffffff;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.43;
+    background-color: #fafafa;
+    
+}
+.jss3820{
+    height: 100%;
+    width: 100%;
+}
+.header {
+    margin-top: -10px;
+    margin-left: -10px;
+    position: absolute;
+    height: auto;
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+    z-index: 1300;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.095) 100%);
+    min-width: 1034px;
+}
+.header-body {
+    max-width: 1200px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.body-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-body-logo {
+    display: contents;
+}
+.header-body-items {
+    width: calc(100% - 265px);
+    padding-right: 0;
+    flex-direction: column;
+    padding-left: 0;
+    justify-content: flex-end;
+}
+.header-body-items1   {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.header-body-items2 {
+    position: relative;
+}
+.items {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    justify-content: flex-end;
+    
+}
+.items li {
+    padding: 10px 10px;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: KoHo, sans-serif;
+    display: block !important;
+}
+.item1 {
+    color: #ffffff;
+    color: inherit;
+    transition: all .35s;
+    font-weight: 600;
+}
+.span1 {
+    font-size: 16px;
+    color: #ffffff !important;
+    padding-right: 10px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.13;
+    margin-left: 7px;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-family: KoHo, sans-serif;
+}
+.jss2636 {
+    color: #ffffff;
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 16px;
+    transition: all .35s;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.login {
+    color: #ffffff;
+    text-decoration: none;
+}
+.items :hover {
+    color: red;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.span1 :hover {
+    color: red;
+}
+.header-body-logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: red;
+    font-family: KoHo, sans-serif;
+}
+.container-430 {
+    position: relative;
+    min-height: 500px;
+}
+.images {
+    min-height: 88px;
+}
+body {background:url('https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/banner1920x960vn1657607872-1657775978974.png')no-repeat fixed white;
+    background-size: cover;
+    overflow-x:hidden;
+}
+.jss763 {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    margin-top: initial;
+}
+.jss764 {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.jss112 {
+    max-width: 1200px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-430 {
+        position: relative;
+        min-height: 500px;
+    }
+.jss765 {
+    right: 0;
+    z-index: 3;
+    max-width: 380px;
+    position: relative;
+    margin-top: -45px;
+    min-height: 315px;
+    margin-right: 100px;
+}
+.jss765 span {
+    text-transform: none;
+}
+.jss772 {
+    display: flex;
+    min-height: 45px;
+    align-items: stretch;
+    justify-content: center;
+}
+.jss772 button:first-child {
+    background: linear-gradient(2.15deg, rgba(249, 165, 26, 0.8) -33.1%, rgba(251, 182, 18, 0.8) 38.51%, rgba(255, 221, 0, 0.8) 79.21%);
+}
+.jss772 span {
+    text-transform: none;
+    font-family: system-ui;
+    line-height: 20px;
+    font-weight: 700;
+}
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.MuiTouchRipple-root {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+.jss772 button:last-child {
+    background: linear-gradient(20.12deg, rgba(217, 26, 33, 0.8) 19.6%, rgba(111, 0, 0, 0.8) 93.86%);
+}
+.jss772 button:last-child {
+    color: #ffffff;
+    padding: 6px 27px;
+    background: linear-gradient(11.3deg, #D91A21 30.49%, #6F0000 186.99%);
+}
+.jss771 {
+    background: linear-gradient(30.3deg, rgba(217, 26, 33, 0.73) 33.94%, #6F0000 163.23%);
+    border-radius: 0 0 5px 5px;
+}
+.jss771 {
+    background: linear-gradient(30.3deg, #D91A21 33.94%, #6F0000 163.23%);
+}
+.jss772 button {
+    border-radius: 5px 5px 0 0;
+}
+.jss778 {
+    padding: 20px 19px;
+    position: relative;
+}
+
+.jss781 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.jss781 > div:first-child {
+    flex: 4;
+}
+.jss555 {
+    position: relative;
+
+}
+.jss781 > div > svg {
+    width: 20px;
+}
+.jss555 > svg {
+    top: 50%;
+    left: 14px;
+    z-index: 1;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.jss557 {
+    height: 48px;
+}
+.MuiFormControl-fullWidth {
+    width: 100%;
+}   
+.MuiFormControl-root {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+}
+.jss557 > label {
+    top: 14.4px;
+    left: 34px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.05;
+}
+
+.MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(14px, 20px) scale(1);
+    pointer-events: none;
+}
+.MuiInputLabel-animated {
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+} 
+.MuiInputLabel-formControl {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(0, 24px) scale(1);
+}
+.MuiInputLabel-root {
+    display: block;
+    transform-origin: top left;
+}
+.MuiFormLabel-root {
+    color: #ffffff;
+    padding: 0;
+    font-size: 8px;
+    font-family: KoHo, sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
+.MuiOutlinedInput-root {
+    position: relative;
+    border-radius: 4px;
+}
+.MuiInputBase-root {
+    color: #333333;
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: KoHo, sans-serif;
+    line-height: 1.1875em;
+}
+.jss559 {
+    font-size: 20px;
+    transform: translate(14px, 0px);
+    font-weight: 600;
+}
+.jss557 > div > input {
+    color: #333333;
+    padding: 0 !important;
+    font-size: 17px;
+    margin-top: 14px;
+    text-align: left;
+    font-weight: 600;
+    line-height: 17.9px;
+    margin-left: 48px;
+    text-overflow: ellipsis;
+}
+.MuiOutlinedInput-input {
+    padding: 18.5px 14px;
+}
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1875em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+    -webkit-tap-highlight-color: transparent;
+}
+.jss557 fieldset {
+    border: 0;
+}
+.MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.jss624 {
+    padding: 0;
+    text-align: left;
+    transition: width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    line-height: 11px;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.jss781 > div:last-child {
+    flex: 2;
+}
+.jss625 {
+    flex: 2;
+    display: flex;
+    outline: none;
+    padding: 5px 7px;
+    background: #ffffff;
+    align-items: center;
+    border-left: 1px solid #D1D3D4;
+    flex-direction: row;
+    justify-content: start;
+}
+.jss626 {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.jss626 > p:first-child {
+    margin-bottom: 2px;
+}
+.jss137 {
+    font-weight: 500;
+}
+.MuiTypography-colorTextPrimary {
+    color: #333333;
+}
+.MuiTypography-h3 {
+    font-size: 18px;
+    font-family: KoHo, sans-serif;
+    line-height: 1.04;
+}
+.MuiTypography-root {
+    margin: 0;
+}
+.jss778 > div {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 11px;
+}
+.jss797 {
+    width: 100%;
+}
+.jss797 input {
+    margin-top: 15px;
+}
+.jss803 {
+    color: #333333;
+    padding: 0 18px 0 48px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+.jss801 {
+    color: #333333;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 12px;
+    transform: scale(1);
+    margin-top: 7px;
+    font-weight: 600;
+    margin-left: 49px;
+}
+.MuiInputLabel-animated {
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+.MuiInputLabel-shrink {
+    transform: translate(0, 1.5px) scale(0.75);
+    transform-origin: top left;
+}
+.jss802 {
+    height: 48px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.jss802 >div:first-child {
+    z-index: 1;
+    position: absolute;
+    margin-left: 18px;
+}
+.MuiInputAdornment-positionEnd {
+    margin-left: 8px;
+}
+.MuiInputAdornment-root {
+    height: 0.01em;
+    display: flex;
+    max-height: 2em;
+    align-items: center;
+}
+.jss802 >div:last-child {
+    left: 90%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 0;
+}
+.jss827{
+    display: none;
+}
+.jss782 {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.jss782 > button {
+    color: #000000;
+    width: 100%;
+    height: 39px;
+    font-size: 16px;
+    max-width: 200px;
+    background: linear-gradient(26.73deg, #F9A51A 13.7%, #FBB612 29.8%, #FFDD00 66.81%);
+    font-family: cursive;
+    border-radius: 10px;
+}
+.MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    background-color: #e0e0e0;
+}
+.MuiButton-root {
+    color: #333333;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: KoHo, sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-decoration: none;
+}
+.jss2001   {display: flex;
+    padding: 130px 0px 0px 900px;
+    justify-content: center;
+}
+.jss2001 > button {
+    color: #000000;
+    width: 100%;
+    height: 250px;
+    font-size: 36px;
+    max-width: 300px;
+    font-weight: 800;
+    background: linear-gradient(26.73deg, #F9A51A 13.7%, #FBB612 29.8%, #FFDD00 66.81%);
+    font-family: cursive;
+    border-radius: 10px;
+}

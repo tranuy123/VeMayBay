@@ -1,0 +1,317 @@
+body{
+    background: #dcdcdc;
+ }
+ .app__option{
+    background: #fff;
+     height: 300px;
+     border-radius: 5px;
+     padding: 36px; 
+     margin-top: 20px;
+     
+ }
+ .app__option:hover{
+     border: 1px solid black;
+ }
+ .app__option-name h3{
+   font-size: 2rem;
+   margin-top: 10px;
+ }
+ .app__option-people{
+     font-size: 1.5rem;
+     margin-top: 15px;
+     display: flex;
+ 
+ }
+ .app__option-people span{
+  font-weight: bold;
+  margin-top: 5px;
+ }
+ .icon-person{
+     background: #d1d1d1;
+     height: 25px;
+     width: 25px;
+     border-radius: 50%;
+     margin-right: 6px;
+     position: relative;
+ }
+ .icon-person i{
+     position: absolute;
+     top: 4px;
+     left: 8px;
+ }
+ .note span{
+     font-size: 1.5rem;
+     color: dodgerblue;
+     margin-left: 10px;
+ }
+ .note{
+     margin-top: 15px;
+     background:#c3d3d8 ;
+     border-radius: 5px;
+     padding: 8px 5px;
+ }
+ .app__option--note{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+ }
+ .app__option--note span{
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ .app__option--choose{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 5px;
+ }
+ .app__option--choose input{
+     width: 370px;
+     height: 25px;
+     font-size: 14px;
+ }
+ .app__option--check{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 15px;
+     flex-direction: column;
+     
+ }
+ .app__option--check {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+ .app__option--NGS {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 5px;
+    }
+.ngaysinh {
+    width: 370px;
+    height: 25px;
+    font-size: 14px;
+}
+ .app button{
+     background: red;
+     color: white;
+     border: none;
+     cursor: pointer;
+     padding: 10px;
+     border-radius: 5px;
+ }
+ .app__option--check input{
+     padding-left: 10px;
+ }
+ .app__option--check span{
+     font-size: 1.5rem;
+     font-weight: bold;
+     margin-top: -10px;
+     margin-left: 1px;
+ }
+ 
+ .fixed{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.6);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     opacity: 0;
+     transform: scale(0.8);
+     pointer-events: none;
+     transition: 0.5s;
+ }
+ .fixed__color{
+     width: 1048px;
+     height: 511px;
+     background-color: white;
+     position: absolute;
+     top: 26px;
+     bottom: 56px;
+     display: flex;
+    
+ }
+ .show{
+     opacity: 1;
+     transform: scale(1);
+     pointer-events:auto ;
+ }
+ .close{
+     font-size: 3rem;
+     color: white;
+     position: absolute;
+     top: 0;
+     right: 15px;
+ }
+ .close:hover{
+     color: black;
+ }
+ 
+ .grid__column-25{
+     width: 25%;
+     padding-left: 27px;
+     padding-right: -27px;
+ }
+ .grid__column-65{
+     width: 65%;
+     padding-left: 27px;
+     padding-right: -27px;
+     margin-left: 23px;
+ }
+ .fixed__nav1{
+     height: 300px;
+     border: 1px solid black;
+ 
+ }
+ .fixed__nav2{
+     height: 100%;
+     border: 1px solid black;
+     display: flex;
+   
+     justify-content: center;
+ }
+ .grid__column-45{
+     width: 45%;
+     padding-left: 27px;
+     padding-right: -27px;
+ }
+ .fixed--chair{
+    
+     margin-left: -26px;
+ }
+ .chair{
+     font-size: 1.5rem;
+     margin-left: 37px;
+     margin-top: 15px;
+     /* display: flex;
+     justify-content: space-between;
+     margin-left: -37px;
+     margin-right: 71px; */
+ 
+ }
+ .chair3{
+     font-size: 1.5rem;
+     margin-left: 106px;
+     margin-top: 15px;
+ }
+ .hpt1{
+     margin-left: 161px;
+ }
+ .icon-chair{
+     margin: 0 18px;
+ }
+ .chair__span2{
+     margin-left: 251px;
+ }
+ .chair__span{
+     margin-left: 218px;
+ }
+ .chair2{
+     margin-left: -56px;
+ }
+ .chair i{
+     margin-right: 21px;
+ }
+ .order{
+     margin-left: 10px;
+     margin-right: 79px;
+     margin-bottom: 10px;
+ }
+ .hpt{
+     margin-left:133px;
+ }
+ .app__option--flight{
+     font-size: 2rem;
+     font-weight: bold;
+ }
+ .app__option--day{
+     margin-top: 10px;
+ }
+ .app__option--day span{
+     font-size: 1.5rem;
+ }
+ .app__option--day--flight  {
+     font-size: 1.5rem;
+     margin-top: 31px;
+     margin-left: 31px;
+ }
+ .app__option--day--flight  span{
+     margin-left: 10px;
+     margin-right: 10px;
+     font-weight: bold;
+ 
+ }
+ .app__option--day--flight  i{
+    color: dodgerblue;
+ }
+ .app__option--icon--down{
+     font-size: 4rem;
+     margin-left: 87px;
+     margin-top: 30px;
+     color:dodgerblue ;
+ }
+ .name{
+     font-weight: bold;
+ }
+ .app__option--icon--down span{
+     color: black;
+     font-size: 2rem;
+ }
+ .app__option-user {
+     font-size: 1.5rem;
+     margin-top: 15px;
+     color: dodgerblue;
+ }
+ .note-user{
+     color: black;
+ }
+ .app__option--note-email{
+     font-weight: bold;
+     margin-top: 15px;
+     font-size: 1.7rem;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+ }
+ .app__option--input{
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     font-size: 1.7rem;
+ }
+ .app__option--input .fullname{
+     height: 25px;
+ }
+ .app__option--Adults{
+     font-size: 1.7rem;
+     width: 100%;
+     height: 40px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 15px;
+ }
+ .app__option--note-price p{
+     font-size: 1.4rem;
+ }
+ .app__option--note-price span{
+    font-weight: bold;
+ }
+ .price{
+     font-weight: bold;
+ }
+ 
+ .buoctieptheo {
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ 
+ 
